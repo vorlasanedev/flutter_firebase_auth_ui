@@ -45,5 +45,10 @@ from evn file
 https://www.youtube.com/watch?v=1IC3oSEI8LQ
 1. install package: flutter_dotenv
 2. create env
-3. usage env
+3. link .env to pubspecs.yaml
+assets:
+  - .env
+  # - assets/images
+  <img src="screenshot/import_env_assets.png">
+4. usage env
 <img src="screenshot/env.png">
